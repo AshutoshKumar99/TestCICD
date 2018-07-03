@@ -11,11 +11,7 @@ node
         git 'https://github.com/AshutoshKumar99/TestCICD.git'
     }
     
-    stage('Compile code')
-    {
-     
-        bat 'mvn compile'
-    }
+ 
     
     stage('Build code')
     {
