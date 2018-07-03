@@ -13,7 +13,7 @@ node
     
     stage('Build code')
     {
-        bat 'mvn --version'
+        bat 'mvn clean install'
     }
     
     
