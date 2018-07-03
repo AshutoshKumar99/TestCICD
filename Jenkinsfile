@@ -13,7 +13,7 @@ node
     
     stage('Build code')
     {
-        'mvn clean install'
+        'mvn install'
     }
     
     
